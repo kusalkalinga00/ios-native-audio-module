@@ -3,6 +3,12 @@ import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 const Home = () => {
+
+    
+  const handleStartRecording = () => {};
+
+  const handleStopRecording = () => {};
+
   return (
     <SafeAreaView style={{ flex: 1, padding: 16 }}>
       <View

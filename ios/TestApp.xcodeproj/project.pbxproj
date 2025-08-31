@@ -12,6 +12,14 @@
 		42886F90E7FEF8022B6E4F91 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8D7BD5CE2E64C6B40031A7D9 /* AudioManagerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BD5CD2E64C6B40031A7D9 /* AudioManagerModule.swift */; };
+		8D7BD5D12E64C7AC0031A7D9 /* AudioModules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BD5D02E64C7AC0031A7D9 /* AudioModules.swift */; };
+		8D7BD5D62E64C86C0031A7D9 /* AudioModules.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BD5D52E64C86C0031A7D9 /* AudioModules.m */; };
+		8D7BD5D92E64C8CF0031A7D9 /* AudioModulesPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BD5D82E64C8CF0031A7D9 /* AudioModulesPackage.swift */; };
+		8D7BD5DB2E64C92B0031A7D9 /* AudioSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BD5DA2E64C92B0031A7D9 /* AudioSessionManager.swift */; };
+		8D7BD5DD2E64C9600031A7D9 /* MicrophoneRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BD5DC2E64C9600031A7D9 /* MicrophoneRecorder.swift */; };
+		8D7BD5DF2E64C9A20031A7D9 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BD5DE2E64C9A20031A7D9 /* CommonUtils.swift */; };
+		8D7BD5E12E64C9B70031A7D9 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BD5E02E64C9B70031A7D9 /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,15 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TestApp/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TestApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D7BD5CD2E64C6B40031A7D9 /* AudioManagerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManagerModule.swift; sourceTree = "<group>"; };
+		8D7BD5D02E64C7AC0031A7D9 /* AudioModules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModules.swift; sourceTree = "<group>"; };
+		8D7BD5D52E64C86C0031A7D9 /* AudioModules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioModules.m; sourceTree = "<group>"; };
+		8D7BD5D72E64C8A90031A7D9 /* TestApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D7BD5D82E64C8CF0031A7D9 /* AudioModulesPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModulesPackage.swift; sourceTree = "<group>"; };
+		8D7BD5DA2E64C92B0031A7D9 /* AudioSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSessionManager.swift; sourceTree = "<group>"; };
+		8D7BD5DC2E64C9600031A7D9 /* MicrophoneRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneRecorder.swift; sourceTree = "<group>"; };
+		8D7BD5DE2E64C9A20031A7D9 /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		8D7BD5E02E64C9B70031A7D9 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -47,6 +64,15 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				8D7BD5CD2E64C6B40031A7D9 /* AudioManagerModule.swift */,
+				8D7BD5D02E64C7AC0031A7D9 /* AudioModules.swift */,
+				8D7BD5D52E64C86C0031A7D9 /* AudioModules.m */,
+				8D7BD5D72E64C8A90031A7D9 /* TestApp-Bridging-Header.h */,
+				8D7BD5D82E64C8CF0031A7D9 /* AudioModulesPackage.swift */,
+				8D7BD5DA2E64C92B0031A7D9 /* AudioSessionManager.swift */,
+				8D7BD5DC2E64C9600031A7D9 /* MicrophoneRecorder.swift */,
+				8D7BD5DE2E64C9A20031A7D9 /* CommonUtils.swift */,
+				8D7BD5E02E64C9B70031A7D9 /* AudioPlayer.swift */,
 			);
 			name = TestApp;
 			sourceTree = "<group>";
@@ -131,7 +157,7 @@
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1640;
 					};
 				};
 			};
@@ -254,7 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7BD5D92E64C8CF0031A7D9 /* AudioModulesPackage.swift in Sources */,
+				8D7BD5DB2E64C92B0031A7D9 /* AudioSessionManager.swift in Sources */,
+				8D7BD5E12E64C9B70031A7D9 /* AudioPlayer.swift in Sources */,
+				8D7BD5D62E64C86C0031A7D9 /* AudioModules.m in Sources */,
+				8D7BD5DD2E64C9600031A7D9 /* MicrophoneRecorder.swift in Sources */,
+				8D7BD5CE2E64C6B40031A7D9 /* AudioManagerModule.swift in Sources */,
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+				8D7BD5DF2E64C9A20031A7D9 /* CommonUtils.swift in Sources */,
+				8D7BD5D12E64C7AC0031A7D9 /* AudioModules.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +316,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nativemodule.testapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nativemodule.testapp;
 				PRODUCT_NAME = TestApp;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -310,8 +345,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nativemodule.testapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nativemodule.testapp;
 				PRODUCT_NAME = TestApp;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
