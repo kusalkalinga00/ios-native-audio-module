@@ -1,13 +1,21 @@
 import { View, Text, TouchableOpacity } from 'react-native';
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import AudioWrapper from '../utils/AudioWrapper';
 
 const Home = () => {
+  const initiateAudioModule = async () => {
+    await AudioWrapper.initiateAudioModule();
+  };
 
-    
-  const handleStartRecording = () => {};
+  const handleStartRecording = async () => {
+    await initiateAudioModule();
+    await AudioWrapper.startRecording();
+  };
 
-  const handleStopRecording = () => {};
+  const handleStopRecording = async () => {
+    await AudioWrapper.stopRecording();
+  };
 
   return (
     <SafeAreaView style={{ flex: 1, padding: 16 }}>
